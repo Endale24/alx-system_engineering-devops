@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-# This script displays "Best School" 10 times
-var='Best School'
-x=1
-until [ $x -gt 10 ]
+# This script displays "Holberton School" 10 times using until loop
+i=1
+until [ $i -gt 10 ]
 do
-	echo "$var"
-	((x++))
+    echo "Best School"
+    ((i++))
 done
