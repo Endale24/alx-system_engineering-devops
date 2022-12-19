@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-#prints a string 10 times
-x=0
-while [ $x -ne 10 ]
+# uses while loop to print 10 times
+
+i=10
+
+while [ $i -gt 0 ]
 do
-  echo "Best School"
-  x=$(( x + 1 ))
+    echo "Holberton School"
+    i=$((i - 1))
 done
